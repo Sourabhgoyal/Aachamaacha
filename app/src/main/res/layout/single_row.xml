@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <ImageView
+        android:layout_width="58dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/ic_launcher"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="3bhk"
+        android:paddingLeft="10dp"
+        android:textSize="25sp"
+
+        android:id="@+id/textView"
+        android:layout_toRightOf="@+id/imageView"
+
+        android:layout_alignTop="@+id/imageView" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/deletered"
+        android:id="@+id/delete"
+        android:scaleType="fitXY"
+
+        android:layout_toRightOf="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:clickable="true"
+
+
+        android:layout_alignTop="@+id/textView"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+
+
+        android:text="City :"
+        android:textSize="15sp"
+
+        android:id="@+id/PRICE"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:layout_alignBottom="@+id/imageView" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text=""
+        android:textSize="15sp"
+        android:id="@+id/textView2"
+        android:layout_toRightOf="@+id/PRICE"
+        android:layout_below="@+id/textView"
+        android:layout_alignBottom="@+id/imageView" />
+
+
+</RelativeLayout>

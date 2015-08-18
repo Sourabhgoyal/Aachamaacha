@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#DCDCDC"
+    android:fillViewport="true"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="12"
+        >
+
+        <EditText
+
+            android:id="@+id/signup_userName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+android:editable="false"
+            android:singleLine="true"
+            android:padding="5dp"
+            android:layout_marginRight="15dp"
+
+             android:layout_weight="1"
+
+android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Username"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="5dp">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/Email_ID"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="15dp"
+            android:padding="5dp"
+            android:layout_marginRight="15dp"
+             android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/LBL_EMAIL_ADDRESS"
+            android:layout_marginBottom="5dp" />
+
+        <EditText
+            android:layout_marginRight="15dp"
+
+            android:singleLine="true"
+            android:id="@+id/MobileNo"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:padding="5dp"
+             android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/LBL_MOBILE_NO"
+            android:layout_marginBottom="5dp" />
+
+        <EditText
+            android:singleLine="true"
+            android:layout_marginLeft="15dp"
+            android:padding="5dp"
+            android:inputType="textPassword"
+            android:layout_marginRight="15dp"
+             android:layout_weight="1"
+            android:id="@+id/signup_password"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/MobileNo"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/LBL_PASSWORD"
+            android:layout_marginBottom="5dp" />
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:inputType="textPassword"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/signup_password"
+            android:layout_marginLeft="15dp"
+            android:padding="5dp"
+            android:layout_marginRight="15dp"
+             android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/LBL_CONFIRM_PASSWORD"
+            android:layout_marginBottom="5dp" />
+
+
+        <EditText
+            android:id="@+id/refferalCode"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/age"
+            android:ems="10"
+            android:padding="5dp"
+             android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:hint="@string/LBL_REFERRAL_CODE"
+            android:visibility="gone"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_below="@+id/age"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:entries="@array/type"
+            android:prompt="@string/Type"
+            android:clickable="false"
+            style="@style/SpinnerTextViewItem"
+             android:layout_weight="1"
+
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_alignRight="@+id/reset"
+            android:layout_alignEnd="@+id/reset"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/confirm_password"
+            android:ems="10"
+
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:padding="5dp"
+             android:layout_weight="1"
+            android:hint="@string/LBL_ADDRESS"
+            android:layout_marginBottom="5dp" />
+
+
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_marginLeft="15dp"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+
+             android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/address"
+            android:ems="10"
+            android:hint="@string/LBL_CITY"
+            android:layout_marginBottom="5dp" />
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/State"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/city"
+            android:ems="10"
+            android:layout_marginRight="15dp"
+
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:padding="5dp"
+             android:layout_weight="1"
+            android:hint="@string/LBL_STATE"
+            android:layout_marginBottom="5dp" />
+
+        <EditText
+            android:layout_marginRight="15dp"
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/State"
+            android:ems="10"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:inputType="number"
+            android:layout_marginLeft="15dp"
+            android:padding="5dp"
+             android:layout_weight="1"
+            android:hint="@string/LBL_AGE"
+            android:visibility="gone"
+            android:layout_marginBottom="5dp" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+android:layout_marginRight="15dp"
+            android:text="@string/UPDATE" />
+
+    </LinearLayout>
+</ScrollView>
+<!-- From: file:/F:/aachamaacha/android%20app/for%20github/GrabThem%20(1)/GrabThem/GrabThem/app/src/main/res/layout/account_details_layout.xml -->

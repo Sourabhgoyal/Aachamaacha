@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    android:padding="0dp"
+    android:rowCount="3" >
+
+    <ImageView
+        android:id="@+id/griditemimage"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="left" >
+    </ImageView>
+
+    <Space
+        android:layout_column="2"
+        android:layout_gravity="fill_vertical"
+        android:layout_row="2" />
+
+    <TextView
+        android:id="@+id/SubTitle"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_row="0"
+        android:text=""
+        android:textSize="30sp" />
+
+</GridLayout><!-- From: file:/F:/aachamaacha/android%20app/for%20github/GrabThem%20(1)/GrabThem/GrabThem/app/src/main/res/layout/griditem.xml -->

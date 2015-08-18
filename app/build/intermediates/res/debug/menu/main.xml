@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/filter"
+        android:title="@string/action_settings"/>-->
+	<item android:id="@+id/action_search"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="Action Bar Search"
+          android:showAsAction="always"
+          android:actionViewClass="android.widget.SearchView" />
+</menu>
+<!-- From: file:/F:/aachamaacha/android%20app/for%20github/GrabThem%20(1)/GrabThem/GrabThem/app/src/main/res/menu/main.xml -->

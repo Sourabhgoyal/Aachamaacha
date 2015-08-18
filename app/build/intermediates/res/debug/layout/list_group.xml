@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    >
+ 
+ 
+    <TextView
+        android:id="@+id/lblListHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:textColor="@android:color/white"
+    android:textSize="18sp" />
+ 
+</LinearLayout><!-- From: file:/F:/aachamaacha/android%20app/for%20github/GrabThem%20(1)/GrabThem/GrabThem/app/src/main/res/layout/list_group.xml -->

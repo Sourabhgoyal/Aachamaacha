@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+
+  <android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <!-- The main content view -->
+      
+
+ 
+		<FrameLayout
+		    
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" >
+        </FrameLayout>
+	
+        
+        <!-- The navigation drawer -->
+
+        <ListView
+            android:id="@+id/drawer_list"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#FFFFFF"
+            android:choiceMode="singleChoice"
+
+            android:dividerHeight="2dp"
+            android:listSelector="@drawable/bkg" />
+
+      <RelativeLayout
+          android:id="@+id/criteria_drawer"
+          android:layout_width="250dp"
+          android:layout_height="match_parent"
+          android:layout_gravity="end"
+          android:background="#000"
+
+          >
+
+          <TextView
+              android:id="@+id/FilterCriteria"
+              android:background="#3B3C36"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/LBL_FILTER_CRITERIA"
+              android:paddingBottom="7dp"
+              android:gravity="center_horizontal"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              />
+          <TextView
+              android:id="@+id/categorySelector"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/FilterCriteria"
+              android:padding="10dp"
+
+              android:text="@string/LBL_CHOOSE_AREA"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:textColor="#3B3C36" />
+
+          <AutoCompleteTextView
+              android:id="@+id/autoCompleteTextView1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:popupBackground="#000"
+
+              android:layout_below="@+id/categorySelector"
+              android:ems="10"
+              android:hint="@string/LBL_SEARCH_YOUR_AREA"
+               >
+
+              <requestFocus />
+          </AutoCompleteTextView>
+
+          <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_below="@id/autoCompleteTextView1"
+android:layout_margin="20dp"
+              android:orientation="vertical"
+              
+              android:weightSum="8">
+          <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:orientation="horizontal"
+              android:weightSum="2">
+              <TextView
+
+                  android:layout_width="wrap_content"
+                  android:layout_height="fill_parent"
+                  android:text="Price From"/>
+
+              <Spinner
+android:layout_height="fill_parent"
+                  style="@style/Theme.NoTitleBar.WithColoredSpinners"
+                  android:id="@+id/pricelistfrom"
+                  android:layout_weight="1"
+                  android:layout_width="0dp"
+                  android:popupBackground="#000"
+                  android:paddingLeft="20dp"
+
+
+                  />
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="fill_parent"
+                  android:text="To"/>
+              <Spinner
+                  android:layout_height="fill_parent"
+                  android:id="@+id/pricelistto"
+                  android:layout_weight="1"
+                  android:layout_width="0dp"
+                  android:popupBackground="#000"
+
+
+                  style="@style/Theme.NoTitleBar.WithColoredSpinners"
+
+
+                  />
+              </LinearLayout>
+
+
+          <Spinner
+              style="@style/Theme.NoTitleBar.WithColoredSpinners"
+              android:id="@+id/typelist"
+              android:layout_width="fill_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:gravity="center_horizontal"
+
+
+              android:popupBackground="#000"
+
+              />
+          <Spinner
+              android:popupBackground="#000"
+              android:gravity="center_horizontal"
+
+
+              android:id="@+id/postedby"
+              android:layout_width="fill_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+               />
+
+          <Spinner
+              android:popupBackground="#000"
+
+              android:id="@+id/saletype"
+              android:layout_width="fill_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              
+android:gravity="center_horizontal"
+              android:entries="@array/sale"
+              android:prompt="@string/sale"
+              />
+              <Button
+                  android:id="@+id/apply"
+                  android:layout_width="fill_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+
+                  android:layout_margin="25dp"
+                  android:text="Apply"
+                 android:paddingLeft="20dp" />
+          </LinearLayout>
+      </RelativeLayout>
+
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout><!-- From: file:/F:/aachamaacha/android%20app/for%20github/GrabThem%20(1)/GrabThem/GrabThem/app/src/main/res/layout/activity_main.xml -->

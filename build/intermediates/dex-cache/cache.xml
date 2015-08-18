@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Apps aachamaacha nazarrakho\GrabThem\GrabThem\app\libs\libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="db1e65d9e3ee616f871cb23120fbea8f18ad3e4c">
+        <dex dex="F:\Apps aachamaacha nazarrakho\GrabThem\GrabThem\app\build\intermediates\pre-dexed\debug\libGoogleAnalyticsServices-f781b417de7df697a70e52a0a1845a98f3ae4b6a.jar" />
+    </item>
+    <item
+        jar="F:\Apps aachamaacha nazarrakho\GrabThem\GrabThem\app\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e8796346a9191a019e936210a2dc50662c57594b">
+        <dex dex="F:\Apps aachamaacha nazarrakho\GrabThem\GrabThem\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.4-jar-with-dependencies-a24e6d75d799648f23628f6e44066d5a95c87bd1.jar" />
+    </item>
+    <item
+        jar="C:\Users\saurabh goyal\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.4\89e9725439adffbbd41c5f5c215c136082b34a7f\joda-time-2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="89e9725439adffbbd41c5f5c215c136082b34a7f">
+        <dex dex="F:\Apps aachamaacha nazarrakho\GrabThem\GrabThem\app\build\intermediates\pre-dexed\debug\joda-time-2.4-a24a67e4ba56c08116acec890097b00bd2b08a8c.jar" />
+    </item>
+    <item
+        jar="F:\Apps aachamaacha nazarrakho\GrabThem\GrabThem\app\libs\ftp4j-1.7.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="abd6a2ba75b142926052c4538611efda49e0b0e2">
+        <dex dex="F:\Apps aachamaacha nazarrakho\GrabThem\GrabThem\app\build\intermediates\pre-dexed\debug\ftp4j-1.7.2-814275f7d7c6df623efe058ba17bfc71c3579bf6.jar" />
+    </item>
+    <item
+        jar="C:\Users\saurabh goyal\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="F:\Apps aachamaacha nazarrakho\GrabThem\GrabThem\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-644df5bc284b030f4f9406c8ab1aeaa92752827d.jar" />
+    </item>
+
+</items>

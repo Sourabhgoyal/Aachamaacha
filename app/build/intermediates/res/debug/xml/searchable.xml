@@ -1,0 +1,6 @@
+<searchable
+      xmlns:android="http://schemas.android.com/apk/res/android"
+   android:label="search_label"
+   android:hint="search_hint">
+</searchable>
+<!-- From: file:/F:/aachamaacha/android%20app/for%20github/GrabThem%20(1)/GrabThem/GrabThem/app/src/main/res/xml/searchable.xml -->

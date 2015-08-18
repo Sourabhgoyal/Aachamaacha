@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/deletered"
+
+        android:title="DELETE"/>
+
+
+
+
+
+</menu><!-- From: file:/F:/aachamaacha/android%20app/for%20github/GrabThem%20(1)/GrabThem/GrabThem/app/src/main/res/menu/list_activity_myproperty.xml -->

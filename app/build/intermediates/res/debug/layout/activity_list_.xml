@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+android:background="#DCDCDC"
+
+     tools:context=".List_Activity">
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/headertext"
+    android:textSize="25dp"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="@android:color/holo_orange_dark"
+    android:textColor="#FFFFFF"
+    android:text="Your Property"
+    />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headertext"
+        android:id="@+id/listView"
+        android:dividerHeight="6.0sp"
+        android:layout_margin="10dp"
+
+
+        />
+</RelativeLayout>
+<!-- From: file:/F:/aachamaacha/android%20app/for%20github/GrabThem%20(1)/GrabThem/GrabThem/app/src/main/res/layout/activity_list_.xml -->

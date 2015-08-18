@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="@drawable/bg3"
+    >
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+        android:weightSum="14"
+
+        android:layout_margin="10dp"
+android:layout_marginRight="20dp"
+
+        android:orientation="vertical"
+        >
+
+    <EditText
+
+        android:id="@+id/signup_userName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:padding="5dp"
+        android:layout_marginRight="30dp"
+android:background="@drawable/roundededittextnocolor"
+
+
+
+        android:ems="10"
+        android:hint="Username"
+        android:layout_marginTop="5dp">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/Email_ID"
+android:inputType="textEmailAddress"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/roundededittextnocolor"
+android:layout_marginRight="30dp"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/signup_userName"
+        android:ems="10"
+        android:hint="@string/LBL_EMAIL_ADDRESS"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:layout_marginRight="30dp"
+
+        android:singleLine="true"
+        android:id="@+id/MobileNo"
+android:inputType="number"
+        android:layout_width="match_parent"
+android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/roundededittextnocolor"
+        android:ems="10"
+        android:hint="@string/LBL_MOBILE_NO"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:singleLine="true"
+
+
+        android:inputType="textPassword"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/roundededittextnocolor"
+        android:id="@+id/signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/LBL_PASSWORD"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:inputType="textPassword"
+
+        android:background="@drawable/roundededittextnocolor"
+
+        android:ems="10"
+        android:hint="@string/LBL_CONFIRM_PASSWORD"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp" />
+
+
+
+    <EditText
+        android:id="@+id/refferalCode"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:padding="5dp"
+        android:background="@drawable/roundededittextnocolor"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:hint="@string/LBL_REFERRAL_CODE"
+        android:visibility="gone"/>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_below="@+id/age"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:entries="@array/type"
+            android:prompt="@string/Type"
+            style="@style/SpinnerTextViewItem"
+            android:popupBackground="@android:color/holo_blue_light"
+            android:background="@drawable/spinner"
+            android:gravity="center"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+
+
+        android:singleLine="true"
+
+        android:background="@drawable/roundededittextnocolor"
+        android:hint="@string/LBL_ADDRESS"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp" />
+
+
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/roundededittextnocolor"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:hint="@string/LBL_CITY"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/State"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:background="@drawable/roundededittextnocolor"
+        android:hint="@string/LBL_STATE"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp" />
+
+     <EditText
+         android:layout_marginRight="30dp"
+         android:id="@+id/age"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1"
+         android:ems="10"
+         android:singleLine="true"
+android:inputType="number"
+         android:visibility="gone"
+         android:background="@drawable/roundededittextnocolor"
+         android:hint="@string/LBL_AGE"
+         android:layout_marginTop="5dp" />
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_edittext"
+            style="@style/DefaultButtonText"
+
+android:visibility="gone"
+            android:text="@string/LBL_RESET"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#fff6fff9" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="signUpUser"
+            android:background="#55ffffff"
+            style="@style/DefaultButtonText"
+
+
+
+            android:text="@string/LBL_SIGN_UP"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#fff6fff9" />
+
+</LinearLayout>
+</ScrollView>
